@@ -1,11 +1,8 @@
 .parent-container {
   
   background-color: black;
-  width: 80%;
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
+  width: 800px;
+  height: 500px;
 }
 
 body {
@@ -43,10 +40,6 @@ h3 {
   margin-top: 0;
 }
 
-
-
-
-
 .circle {
   height: 100px; 
   width: 100px;  
@@ -67,25 +60,11 @@ h3 {
 }
 
 .right-container {
-  background-color: var(--container-color);
+  background-color: white;
   width: 80%;
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-
-}
-
-
-
-
-
-:root {
-  --nav-color: #1f1f1f;
-  --container-color: #1b1b1b;
-  --accent-color: #66b2ff;
-  --text-color: #eaeaea;
-}

@@ -1,3 +1,61 @@
+.parent-container {
+  
+  background-color: var(--container-color);
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  color: var(--accent-color);
+  background-color: var(--nav-color);
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+
+.circle {
+  height: 100px; 
+  width: 100px;  
+  background-color: #f00; 
+  border-radius: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+}
+
+.my-button {
+    width: 150px;
+    height: 40px
+    color: gray;
+    border: none; 
+    cursor: pointer; 
+}
+
+.right-container {
+  background-color: var(--container-color);
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+
+}
+
+
+
+
+
 :root {
   --nav-color: #1f1f1f;
   --container-color: #1b1b1b;

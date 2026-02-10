@@ -1,12 +1,11 @@
 .parent-container {
   
-  background-color: var(--container-color);
+  background-color: black;
   width: 80%;
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 body {

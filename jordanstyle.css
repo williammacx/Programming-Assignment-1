@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -35,6 +40,52 @@ body {
   font-weight: 700;
   color: black;
 }
+
+.right-info-col h5 {
+  margin: 15px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: lightgray;
+  letterspacing: 0.5px;
+}
+
+.right-info-col p {
+  margin: 20px 0 0;
+  padding-left: 50px;
+  font-size: 14px;
+  color: black;
+  line-height: 1.35;
+}
+
+.available-colors span: first-child {
+  font-size: 14px;
+  color: black;
+}
+
+.black-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: black;
+}
+
+.red-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: red;
+}
+
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: beige;
+}
+
 
 .buy-btn {
     width: 150px;
